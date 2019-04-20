@@ -1,0 +1,14 @@
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPI\bin\Debug\netcoreapp2.1\GreenFluxAPI.deps.json
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPI\bin\Debug\netcoreapp2.1\GreenFluxAPI.runtimeconfig.json
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPI\bin\Debug\netcoreapp2.1\GreenFluxAPI.runtimeconfig.dev.json
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPI\bin\Debug\netcoreapp2.1\GreenFluxAPI.dll
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp2.1\GreenFluxAPI.csprojAssemblyReference.cache
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp2.1\GreenFluxAPI.csproj.CoreCompileInputs.cache
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp2.1\GreenFluxAPI.RazorAssemblyInfo.cache
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp2.1\GreenFluxAPI.RazorAssemblyInfo.cs
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp2.1\GreenFluxAPI.AssemblyInfoInputs.cache
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp2.1\GreenFluxAPI.AssemblyInfo.cs
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp2.1\GreenFluxAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPI\bin\Debug\netcoreapp2.1\GreenFluxAPI.pdb
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp2.1\GreenFluxAPI.dll
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPI\obj\Debug\netcoreapp2.1\GreenFluxAPI.pdb

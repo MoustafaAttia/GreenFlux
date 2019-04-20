@@ -1,0 +1,17 @@
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\bin\Debug\netcoreapp2.1\GreenFluxAPITest.deps.json
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\bin\Debug\netcoreapp2.1\GreenFluxAPITest.runtimeconfig.json
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\bin\Debug\netcoreapp2.1\GreenFluxAPITest.runtimeconfig.dev.json
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\bin\Debug\netcoreapp2.1\GreenFluxAPITest.dll
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\bin\Debug\netcoreapp2.1\GreenFluxAPITest.pdb
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\bin\Debug\netcoreapp2.1\GreenFluxAPI.dll
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\bin\Debug\netcoreapp2.1\GreenFluxAPI.pdb
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\obj\Debug\netcoreapp2.1\GreenFluxAPITest.csprojAssemblyReference.cache
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\obj\Debug\netcoreapp2.1\GreenFluxAPITest.csproj.CoreCompileInputs.cache
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\obj\Debug\netcoreapp2.1\GreenFluxAPITest.AssemblyInfoInputs.cache
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\obj\Debug\netcoreapp2.1\GreenFluxAPITest.AssemblyInfo.cs
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\obj\Debug\netcoreapp2.1\GreenFluxAPITest.csproj.CopyComplete
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\obj\Debug\netcoreapp2.1\GreenFluxAPITest.dll
+C:\Users\Mostafa.Attia\source\repos\GreenFluxAPI\GreenFluxAPITest\obj\Debug\netcoreapp2.1\GreenFluxAPITest.pdb
