@@ -6,8 +6,6 @@ using System.Net;
 
 namespace GreenFluxAPI.Service
 {
-    // This code copied from this link: https://www.johanbostrom.se/blog/request-throttling-in-net-core-mvc-and-api
-
     [AttributeUsage(AttributeTargets.Method)]
     public class ThrottleAttribute : ActionFilterAttribute
     {
