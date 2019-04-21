@@ -20,6 +20,7 @@ namespace GreenFluxAPITest
             Assert.AreEqual(result, expectedResult);
         }
 
+        [TestMethod]
         public void IsCountryCodeValid_WithValidParameter_ReturnTrue()
         {
             // Arrange
@@ -32,6 +33,7 @@ namespace GreenFluxAPITest
             Assert.IsTrue(result);
         }
 
+        [TestMethod]
         public void IsCountryCodeValid_WithInvalidParameter_ReturnFalse()
         {
             // Arrange
