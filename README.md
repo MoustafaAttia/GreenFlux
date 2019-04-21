@@ -18,17 +18,17 @@ Install-Package Swashbuckle.AspNetCore -Version 4.0.1
 ## Solution Details and Design
 ### Controller
 Controller layer calls the business logic layer, to return model object and assign it inside response object.
-* **AnswerQuestion(int questionNumber)** controller takes parameter of **questionNumber** and return an **AnswerResponse** object which contains and answer for selected question.
-* **GetHolidays(int year, string countryCode)** controller takes two parameters **year** and **countryCode** and return **PublicHolidayResponse** which contains list of Holidays for selected country at selected year.
-* **GetHolidaysByYear(int year)** controller takes parameter of **year** and return **CountryPublicHolidayResponse** which contains all holidays for all countries at selected year.
+* ```AnswerQuestion(int questionNumber)``` return an ```AnswerResponse``` object which contains and answer for selected question.
+* ```GetHolidays(int year, string countryCode)``` return ```PublicHolidayResponse``` which contains list of Holidays for selected country at selected year.
+* ```GetHolidaysByYear(int year)``` return ```CountryPublicHolidayResponse``` which contains all holidays for all countries at selected year.
 * Throttle to each controller assigned to be 5 seconds for each call
 
 ### BusinessLogic
 Business logic layer calls the service layer directly in order to retrieve any data needed while applying any logic
-* **GetMaxHolidaysCountry(int year)** returns the country which contains maximum number of holidays at selected year.
-* **GetMaxHolidaysMonthGlobally(int year)** return maximum month contains globally holidays across all countries.
-* **GetCountryPublicHoliday(int year, string countryCode)** return list of holidays for selected country at selected year.
-* **GetCountryPublicHolidayByYear(int year)** return list of all holidays across all countries at selected year.
+* ```GetMaxHolidaysCountry(int year)``` returns the country which contains maximum number of holidays at selected year.
+* ```GetMaxHolidaysMonthGlobally(int year)``` return maximum month contains globally holidays across all countries.
+* ```GetCountryPublicHoliday(int year, string countryCode)``` return list of holidays for selected country at selected year.
+* ```GetCountryPublicHolidayByYear(int year)``` return list of all holidays across all countries at selected year.
 
 ## Built With
 
@@ -36,9 +36,9 @@ Business logic layer calls the service layer directly in order to retrieve any d
 * [Swashbuckle.AspNetCore 4.0.1](https://www.nuget.org/packages/Swashbuckle.AspNetCore/4.0.1) - Swagger UI
 * [nager api](https://date.nager.at) Public Holidays API
 * MSTest .Net core
-* Dependency Injection applied
+* Dependency Injection
 
-## Authors
+## Author
 
 * **Moustafa Attia** - *Software Engineer .Net/C#* - [Moustafa Attia](https://github.com/MoustafaAttia)
 
