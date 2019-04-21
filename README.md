@@ -1,6 +1,6 @@
 # GreenFluxAPI
 
-This repository for Public Holiday Optimizer Assignment.
+This repository for Public Holiday Optimizer.
 
 
 ## Technologies used

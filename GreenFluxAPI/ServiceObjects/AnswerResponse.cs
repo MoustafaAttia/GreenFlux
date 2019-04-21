@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace GreenFluxAPI.ServiceObjects
 {
     [DataContract(Name = "AnswerResponse")]
-    public class AnswerResponse
+    public class AnswerResponse : ResponseBase
     {
         [DataMember(Name = "QuestionString")]
         public string QuestionString { get; set; }

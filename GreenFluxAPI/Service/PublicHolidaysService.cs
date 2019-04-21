@@ -25,11 +25,7 @@ namespace GreenFluxAPI.Service
         {
             if (year < 0 || !Helper.IsCountryCodeValid(countryCode.ToUpper()))
             {
-                this.publicHolidayResponse = new PublicHolidayResponse();
-                this.publicHolidayResponse.PublicHolidays = null;
-                this.publicHolidayResponse.Status = false;
-                this.publicHolidayResponse.ExceptionMessage = "Invalid Year or Country code.";
-                return this.publicHolidayResponse;
+                return GetExceptionPublicHolidayResponse("Invalid Year or Country code, Please pass correct parameters.");
             }
             using (HttpClient client = new HttpClient())
             {
@@ -50,23 +46,14 @@ namespace GreenFluxAPI.Service
                     }
                     else
                     {
-                        this.publicHolidayResponse = new PublicHolidayResponse();
-                        this.publicHolidayResponse.PublicHolidays = null;
-                        this.publicHolidayResponse.Status = false;
-                        this.publicHolidayResponse.ExceptionMessage = "An unexpected Exception happend, Please try again.";
-                        return this.publicHolidayResponse;
+                        return GetExceptionPublicHolidayResponse("An unexpected Exception happend, Please try again.");
                     }
                     
                 }
                 catch (Exception ex)
                 {
-                    this.publicHolidayResponse = new PublicHolidayResponse();
-                    this.publicHolidayResponse.PublicHolidays = null;
-                    this.publicHolidayResponse.Status = false;
-                    this.publicHolidayResponse.ExceptionMessage = ex.Message;
-                    return this.publicHolidayResponse;
+                    return GetExceptionPublicHolidayResponse(ex.Message);
                 }
-                
             }
         }
 
@@ -74,11 +61,7 @@ namespace GreenFluxAPI.Service
         {
             if (year < 0)
             {
-                this.countryPublicHolidayResponse = new CountryPublicHolidayResponse();
-                this.countryPublicHolidayResponse.CountryPublicHolidays = null;
-                this.countryPublicHolidayResponse.Status = false;
-                this.countryPublicHolidayResponse.ExceptionMessage = "Invalid Year.";
-                return this.countryPublicHolidayResponse;
+                return GetExceptionCountryPublicHolidayResponse("Invalid Year, Please pass correct parameters.");
             }
             using (HttpClient client = new HttpClient())
             {
@@ -100,6 +83,27 @@ namespace GreenFluxAPI.Service
                 this.countryPublicHolidayResponse.Status = true;
                 return this.countryPublicHolidayResponse;
             }
+        }
+        #endregion
+
+        #region Utilites
+        private PublicHolidayResponse GetExceptionPublicHolidayResponse(string exceptionMessage)
+        {
+            return new PublicHolidayResponse()
+            {
+                PublicHolidays = null,
+                Status = false,
+                ExceptionMessage = exceptionMessage
+            };
+        }
+        private CountryPublicHolidayResponse GetExceptionCountryPublicHolidayResponse(string exceptionMessage)
+        {
+            return new CountryPublicHolidayResponse()
+            {
+                CountryPublicHolidays = null,
+                Status = false,
+                ExceptionMessage = exceptionMessage
+            };
         }
         #endregion
     }
