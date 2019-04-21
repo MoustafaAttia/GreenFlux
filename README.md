@@ -32,9 +32,9 @@ Business logic layer calls the service layer directly in order to retrieve any d
 
 ## Built With
 
-* [ASP.Net core  2.1.1] (https://dotnet.microsoft.com/download/dotnet-core/2.1) - .Net core framework
+* [ASP.Net core  2.1.1](https://dotnet.microsoft.com/download/dotnet-core/2.1) - .Net core framework
 * [Swashbuckle.AspNetCore 4.0.1](https://www.nuget.org/packages/Swashbuckle.AspNetCore/4.0.1) - Swagger UI
-* [nager api] (https://date.nager.at) Public Holidays API
+* [nager api](https://date.nager.at) Public Holidays API
 * MSTest .Net core
 * Dependency Injection applied
 
@@ -44,5 +44,4 @@ Business logic layer calls the service layer directly in order to retrieve any d
 
 ## Acknowledgments
 
-* https://www.johanbostrom.se/blog/request-throttling-in-net-core-mvc-and-api used in ThrottleAttribute.cs
-
+* [Request throttling in .NET Core MVC](https://www.johanbostrom.se/blog/request-throttling-in-net-core-mvc-and-api) used in ThrottleAttribute.cs
