@@ -1,4 +1,4 @@
-# GreenFluxAPI
+# PublicHolidayAPI
 
 This repository for Public Holiday Optimizer.
 
