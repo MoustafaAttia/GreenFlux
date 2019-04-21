@@ -30,7 +30,7 @@ Business logic layer calls the service layer directly in order to retrieve any d
 * ```GetCountryPublicHoliday(int year, string countryCode)``` return list of holidays for selected country at selected year.
 * ```GetCountryPublicHolidayByYear(int year)``` return list of all holidays across all countries at selected year.
 
-## Built With
+## Technologies used
 
 * [ASP.Net core  2.1.1](https://dotnet.microsoft.com/download/dotnet-core/2.1) - .Net core framework
 * [Swashbuckle.AspNetCore 4.0.1](https://www.nuget.org/packages/Swashbuckle.AspNetCore/4.0.1) - Swagger UI
