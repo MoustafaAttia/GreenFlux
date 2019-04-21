@@ -12406,11 +12406,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mostafa.Attia\\source\\repos\\GreenFluxAPI\\GreenFluxAPI\\GreenFluxAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Mostafa.Attia\\source\\repos\\GreenFlux\\GreenFluxAPI\\GreenFluxAPI.csproj",
       "projectName": "GreenFluxAPI",
-      "projectPath": "C:\\Users\\Mostafa.Attia\\source\\repos\\GreenFluxAPI\\GreenFluxAPI\\GreenFluxAPI.csproj",
+      "projectPath": "C:\\Users\\Mostafa.Attia\\source\\repos\\GreenFlux\\GreenFluxAPI\\GreenFluxAPI.csproj",
       "packagesPath": "C:\\Users\\Mostafa.Attia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mostafa.Attia\\source\\repos\\GreenFluxAPI\\GreenFluxAPI\\obj\\",
+      "outputPath": "C:\\Users\\Mostafa.Attia\\source\\repos\\GreenFlux\\GreenFluxAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

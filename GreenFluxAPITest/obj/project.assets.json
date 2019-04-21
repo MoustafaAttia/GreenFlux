@@ -9290,11 +9290,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mostafa.Attia\\source\\repos\\GreenFluxAPI\\GreenFluxAPITest\\GreenFluxAPITest.csproj",
+      "projectUniqueName": "C:\\Users\\Mostafa.Attia\\source\\repos\\GreenFlux\\GreenFluxAPITest\\GreenFluxAPITest.csproj",
       "projectName": "GreenFluxAPITest",
-      "projectPath": "C:\\Users\\Mostafa.Attia\\source\\repos\\GreenFluxAPI\\GreenFluxAPITest\\GreenFluxAPITest.csproj",
+      "projectPath": "C:\\Users\\Mostafa.Attia\\source\\repos\\GreenFlux\\GreenFluxAPITest\\GreenFluxAPITest.csproj",
       "packagesPath": "C:\\Users\\Mostafa.Attia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mostafa.Attia\\source\\repos\\GreenFluxAPI\\GreenFluxAPITest\\obj\\",
+      "outputPath": "C:\\Users\\Mostafa.Attia\\source\\repos\\GreenFlux\\GreenFluxAPITest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9313,8 +9313,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Mostafa.Attia\\source\\repos\\GreenFluxAPI\\GreenFluxAPI\\GreenFluxAPI.csproj": {
-              "projectPath": "C:\\Users\\Mostafa.Attia\\source\\repos\\GreenFluxAPI\\GreenFluxAPI\\GreenFluxAPI.csproj"
+            "C:\\Users\\Mostafa.Attia\\source\\repos\\GreenFlux\\GreenFluxAPI\\GreenFluxAPI.csproj": {
+              "projectPath": "C:\\Users\\Mostafa.Attia\\source\\repos\\GreenFlux\\GreenFluxAPI\\GreenFluxAPI.csproj"
             }
           }
         }
