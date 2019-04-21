@@ -6,23 +6,23 @@ using System.Collections.Generic;
 
 namespace GreenFluxAPI.BusinessLogic
 {
-    public class PublicHolidaysBL
+    public class PublicHolidaysBL : IPublicHolidaysBL
     {
         #region Declare Variables
-        private PublicHolidaysService publicHolidaysService;
+        private IPublicHolidaysService _publicHolidaysService;
         #endregion
 
         #region Constructor
-        public PublicHolidaysBL()
+        public PublicHolidaysBL(IPublicHolidaysService publicHolidaysService)
         {
-            this.publicHolidaysService = new PublicHolidaysService();
+            this._publicHolidaysService = publicHolidaysService;
         }
         #endregion
 
         #region Methods
         public CountryPublicHoliday GetMaxHolidaysCountry(int year)
         {
-            var allHolidays = this.publicHolidaysService.GetPublicHolidaysByYear(year);
+            var allHolidays = this._publicHolidaysService.GetPublicHolidaysByYear(year);
             if (allHolidays != null && allHolidays.Result != null && allHolidays.Result.Status == true)
             {
                 CountryPublicHoliday result = new CountryPublicHoliday();
@@ -46,7 +46,7 @@ namespace GreenFluxAPI.BusinessLogic
 
         public HolidaysMonth GetMaxHolidaysMonthGlobally(int year)
         {
-            var allHolidays = this.publicHolidaysService.GetPublicHolidaysByYear(year);
+            var allHolidays = this._publicHolidaysService.GetPublicHolidaysByYear(year);
             if (allHolidays != null && allHolidays.Result != null && allHolidays.Result.Status == true)
             {
                 HolidaysMonth result = new HolidaysMonth();
@@ -90,7 +90,7 @@ namespace GreenFluxAPI.BusinessLogic
             // after that, the result will be exist in this list
             // Dictionary is better choice that list, as looking for item in Dictionary is O(1) time complexity, and in list O(n). so Dictionary will save more running time
 
-            var allHolidays = this.publicHolidaysService.GetPublicHolidaysByYear(year);
+            var allHolidays = this._publicHolidaysService.GetPublicHolidaysByYear(year);
             if (allHolidays != null && allHolidays.Result != null && allHolidays.Result.Status == true)
             {
                 
@@ -152,7 +152,7 @@ namespace GreenFluxAPI.BusinessLogic
 
         public List<PublicHoliday> GetCountryPublicHoliday(int year, string countryCode)
         {
-            var holidays = this.publicHolidaysService.GetPublicHolidays(year, countryCode);
+            var holidays = this._publicHolidaysService.GetPublicHolidays(year, countryCode);
             if (holidays != null && holidays.Result.Status == true)
                 return holidays.Result.PublicHolidays;
             else
@@ -161,7 +161,7 @@ namespace GreenFluxAPI.BusinessLogic
 
         public List<CountryPublicHoliday> GetCountryPublicHolidayByYear(int year)
         {
-            var holidays = this.publicHolidaysService.GetPublicHolidaysByYear(year);
+            var holidays = this._publicHolidaysService.GetPublicHolidaysByYear(year);
             if (holidays != null && holidays.Result.Status == true)
                 return holidays.Result.CountryPublicHolidays;
             else

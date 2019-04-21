@@ -17,14 +17,14 @@ namespace GreenFluxAPI.Controllers
         private const string SecondQuestionString = "Which month had most holidays if you compare globally?";
         private const string ThirdQuestionString = "Which country had the most unique holidays?";
         private const string ExceptionMessageString = "Unexpected Exception happen, Please try again.";
-        private PublicHolidaysBL publicHolidaysOperations;
+        private IPublicHolidaysBL publicHolidaysOperations;
         private AnswerResponse answerResponse;
         #endregion
 
         #region Constructor
-        public QuestionsController()
+        public QuestionsController(IPublicHolidaysBL _publicHolidaysOperations)
         {
-            this.publicHolidaysOperations = new PublicHolidaysBL();
+            this.publicHolidaysOperations = _publicHolidaysOperations;
         }
         #endregion
 
