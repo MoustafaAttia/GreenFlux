@@ -14,6 +14,8 @@ Install-Package Swashbuckle.AspNetCore -Version 4.0.1
 ```
 
 ## Solution Details and Design
+This solution based on MVC design pattern, as Controller layer calls the business logic layer and retrieve object that contains service response and the model in case of success calling. 
+And business logic layer calls the service and bind it's response into model objects, which should be used in view layer (currently there is no view layer, and model binded in response result object). 
 ### Controller
 Controller layer calls the business logic layer, to return model object and assign it inside response object.
 * ```AnswerQuestion(int questionNumber)``` return an ```AnswerResponse``` object which contains and answer for selected question.
@@ -35,6 +37,10 @@ Business logic layer calls the service layer directly in order to retrieve any d
 * [nager api](https://date.nager.at) Public Holidays API
 * MSTest .Net core
 * Dependency Injection
+
+## Future work
+* Build friendly view layer with angular 2+ that uses these controllers to view holidays in calendar for selected country and year.
+* Provide more business logic functions to list some insights, e.g. most and least countries in holidays, holidays by months in each country, common holidays between two countries and so on.
 
 ## Author
 
