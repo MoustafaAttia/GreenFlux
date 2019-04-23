@@ -48,7 +48,6 @@ Any utilites class or methods used in application, for example:
 * [nager api](https://date.nager.at) Public Holidays API
 * MSTest .Net core
 * Dependency Injection
-* Swagger UI
 
 ## Future work
 * Build friendly view layer with angular 2+ that uses these controllers to view holidays in calendar for selected country and year.
